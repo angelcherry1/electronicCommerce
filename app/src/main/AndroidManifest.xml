@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xhc.bigbusinessu">
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:replace="android:name"
+        android:usesCleartextTraffic="true"
+        >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="sBzFokp6jfRhPq7m8lH4gAwmmGPF6NoT" >
+        </meta-data>
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"> </service>
+        <activity
+            android:name=".activity.LogoActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <activity android:name=".activity.shop.HometownGoodsListActivity"
+            android:theme="@style/DefaultCityPickerTheme"/>
+        <activity android:name=".activity.shop.ShopGoodsDetailsActivity" />
+        <activity android:name=".activity.shop.SearchForGoodsActivity" />
+        <activity android:name=".activity.shop.ShopDetailsActivity" />
+        <activity android:name=".activity.me.setting.SetupActivity" />
+        <activity android:name=".activity.me.setting.PersonalInfoActivity" />
+        <activity android:name=".activity.shop.ConfigGoodsOrderActivity" />
+        <activity android:name=".activity.me.MyShopGoodsAddressList" />
+        <activity android:name=".activity.me.MyShopGoodsAddressListActivity" />
+        <activity android:name=".activity.me.AddNewShopGoodsAddressActivity" />
+        <activity android:name=".activity.me.order.shop.AllShopOrderActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.me.setting.ChangePwdActivity" />
+        <activity android:name=".activity.shop.AllGoodsClassActivity" />
+        <activity android:name=".activity.shop.ShopOrderDetailsActivity" />
+
+
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+
+        </activity>
+
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+        <activity android:name=".activity.shop.DoPayActivity" />
+        <activity android:name=".activity.shop.PaySuccessActivity" />
+        <activity android:name=".activity.life.ConvenientLifeActivity" />
+        <activity android:name=".activity.life.ConvenientLifeListActivity" />
+        <activity android:name=".activity.life.AllLifeClassListActivity" />
+        <activity android:name=".activity.life.AppointmentHeActivity" />
+        <activity android:name=".activity.life.push.LifePushNeedActivity" />
+        <activity android:name=".activity.life.push.LifePushSkillActivity" />
+        <activity android:name=".activity.life.order.AllLifeOrderListActivity" />
+        <activity android:name=".activity.life.order.LifeAllOrderListActivity" />
+        <activity android:name=".activity.ruralTourism.RuralTourismActivity" />
+        <activity android:name=".activity.life.order.LifeOrderDetailsActivity" />
+        <activity android:name=".activity.ruralTourism.RuralTourismDetailsActivity" />
+        <activity android:name=".activity.hotel.HotelMainActivity" />
+        <activity android:name=".activity.hotel.HotelListActivity" />
+        <activity android:name=".activity.hotel.HotelDetailsActivity" />
+        <activity android:name=".activity.hotel.HotelSubOrderActivity" />
+        <activity android:name=".activity.hotel.HotelEditCheckInUserActivity" />
+        <activity android:name=".activity.hotel.HotelDoPayOrderActivity" />
+        <activity android:name=".activity.me.order.hotel.AllHotelOrderActivity" />
+        <activity android:name=".activity.me.order.hotel.HotelOrderDetailsActivity" />
+        <activity android:name=".activity.takeOut.TakeOutHomeActivity" />
+        <activity android:name=".activity.errands.ErrandsHomeActivity" />
+        <activity android:name=".activity.invoice.InvoiceListActivity" />
+        <activity android:name=".activity.invoice.EditInvoiceDetailsActivity" />
+        <activity android:name=".activity.collection.MyCollectionActivity" />
+        <activity android:name=".activity.wallet.MyWalletActivity" />
+        <activity android:name=".activity.wallet.ApplyMoneyOutActivity" />
+        <activity android:name=".activity.wallet.OutMoneyListActivity" />
+        <activity android:name=".activity.integral_recharge.IntegralRechargeActivity" />
+        <activity android:name=".activity.coupon.GoodsCouponListActivity" />
+        <activity android:name=".activity.bbs.PushBBSActivity" />
+        <activity android:name=".activity.myGoods.MyGoodsForSellActivity" />
+        <activity android:name=".activity.myGoods.PushMyGoodsActivity" />
+        <activity android:name=".activity.myGoods.MyGoodsForPushActivity" />
+        <activity android:name=".activity.me.order.travel.AllTravelOrderActivity" />
+        <activity android:name=".activity.me.order.travel.TravelOrderDetailsActivity" />
+        <activity android:name=".activity.me.order.errands.AllErrandsOrderActivity" />
+        <activity android:name=".activity.me.order.errands.ErrandsOrderDetailsActivity" />
+        <activity android:name=".activity.me.order.takeOut.AllTakeoutOrderActivity" />
+        <activity android:name=".activity.takeOut.TakeOutGoodsListActivity" />
+        <activity android:name=".activity.takeOut.TakeOutGoodsDetailsActivity" />
+        <activity android:name=".activity.takeOut.TakeOutBusinessQualificationActivity" />
+    </application>
+
+</manifest>

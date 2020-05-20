@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dia_hotel_room_bg"
+    android:orientation="vertical"
+    android:paddingTop="12dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp">
+
+
+        <TextView
+            android:id="@+id/tv_type_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="床型"
+            android:textColor="#363636"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_type_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:text="早餐"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:gravity="center_vertical"
+        android:paddingRight="12dp">
+
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="床型"
+            android:textColor="#ffffb333"
+            android:textSize="16sp" />
+
+        <co.lujun.androidtagview.TagContainerLayout
+            android:id="@+id/tagcontainerLayout"
+            android:layout_width="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="4dp"
+            app:container_background_color="#ffffff"
+            app:container_border_color="#ffffff"
+            app:container_border_radius="0dp"
+            app:container_gravity="left"
+            app:horizontal_interval="10dp"
+            app:tag_background_color="#FFFFFFFF"
+            app:tag_border_color="#999999"
+            app:tag_border_width="1dp"
+            app:tag_clickable="true"
+            app:tag_corner_radius="3dp"
+            app:tag_horizontal_padding="8dp"
+            app:tag_selectable="true"
+            app:tag_support_letters_rlt="false"
+            app:tag_text_color="#666666"
+            app:tag_text_size="14sp"
+            app:tag_theme="none"
+            app:tag_vertical_padding="6dp"
+            app:vertical_interval="4dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@mipmap/tv_btn_bg_white"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="重置"
+                android:textColor="#ff999999"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@mipmap/icon_tv_btn_finish"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="完成"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

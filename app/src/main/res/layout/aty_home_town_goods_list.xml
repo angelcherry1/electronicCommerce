@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/app_theme_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rel_back"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/icon_title_back" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_search"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_title_search__et_bg"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="13dp"
+                android:src="@mipmap/icon_search_img" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:singleLine="true"
+                android:background="@null"
+                android:enabled="false"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#CCCCCC"
+                android:text="请输入关键词"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_choose_city"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/icon_title_location_img" />
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请先定位"
+                android:layout_marginLeft="3dp"
+                android:textColor="#fff"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_height="40dp">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/h_list_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="never"
+            android:layout_height="match_parent"
+            android:scrollbars="none"/>
+
+        <TextView
+            android:id="@+id/tv_classify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分类"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="@drawable/shape_goods_categroy_tv_tag_bg"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="match_parent" />
+</LinearLayout>

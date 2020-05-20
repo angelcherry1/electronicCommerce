@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="骨汤牛肉米线"
+                android:textColor="#ff333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="待评价"
+                android:textColor="#ffffb333"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="74dp"
+                android:layout_height="74dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:src="@mipmap/icon_goods" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="酸菜+清汤牛肚米线"
+                    android:textColor="#ff333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="+汤与粉分开装"
+                    android:textColor="#ff666666"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="￥15"
+                    android:textColor="#fffc554c"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:gravity="right"
+            android:text="下单时间：2019-07-28 11:56"
+            android:textColor="#ff666666"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingRight="12dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center|right"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/left_btn"
+                android:layout_width="65dp"
+                android:layout_height="25dp"
+                android:background="@drawable/shape_order_btn_gray_bg"
+                android:text=""
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="#333"
+                />
+
+            <TextView
+                android:id="@+id/right_btn"
+                android:layout_width="65dp"
+                android:layout_height="25dp"
+                android:background="@drawable/shape_order_btn_yellow_bg"
+                android:text=""
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginLeft="12dp"
+                android:textColor="@color/app_theme_color"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

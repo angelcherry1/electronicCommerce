@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_theme_color</item>
+        <item name="colorPrimaryDark">@color/app_theme_color</item>
+        <item name="colorAccent">@color/app_theme_color</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Main_RG">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_userhome_rb_textcolor</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:scaleX">0.9</item>
+        <item name="android:scaleY">0.9</item>
+    </style>
+
+
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!--  <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+          <item name="@android:windowExitAnimation">@anim/dialog_exit</item>-->
+    </style>
+
+
+    <!--2. 主题样式-->
+    <style name="App_RatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/app_rating_stars</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

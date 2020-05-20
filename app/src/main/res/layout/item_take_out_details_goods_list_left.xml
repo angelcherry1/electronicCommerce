@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_bg"
+        android:background="#F0F0F0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="小食"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

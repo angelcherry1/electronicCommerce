@@ -1,0 +1,769 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+MERGED from [androidx.core:core-ktx:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\12c3aec28066f85ff07b1c3c403f5a9a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1882be8c2efe92c7dc89fa74357b0ba6\AndroidManifest.xml:2:1-13:12
+MERGED from [:citypicker] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\citypicker\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6e523ca6f86e8c9b25222283cfc14480\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bca65c8811ea2d9654a16cec286719d8\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdc034c145457cbf25e09ab318cf5032\AndroidManifest.xml:17:1-22:12
+MERGED from [com.ms:Banner:2.3.17] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3f4611ec270eef60d028398898a2577d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.ai2101039:YLCircleImageView:v1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\92c9b79e79ae7dcf057efea43f52debf\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:2:1-56:12
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6dc9a774b06bcfa08b817d6dc1aa347\AndroidManifest.xml:2:1-16:12
+MERGED from [:policylibrary] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\policylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:niceimageview] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\niceimageview\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03d5b6b5c9936f24528037ef42709500\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9feaca97eb9ba459c3a038a4004c382\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\edf808a53947cada6c112e4a1c7f1948\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c72cfa620e60db3828ac3c6320ea086e\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\db90bccd79b3a1e6d6bd8eaee99b4019\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a0d3cc7aa68ed9b9a6c7b6a24e798367\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85d3c3468fd13f9467785bb59c387af7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.zhy:okhttputils:2.5.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e8b4643f8e16d878cd6e84698a3d871\AndroidManifest.xml:2:1-11:12
+MERGED from [com.hyman:flowlayout-lib:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fae9c677859b380cda834eb67d5280a5\AndroidManifest.xml:2:1-12:12
+MERGED from [com.shizhefei:ViewPagerIndicator:1.1.9.androidx] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\26e107a218df28270603e912ce5be327\AndroidManifest.xml:2:1-16:12
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8c39354a694ca16abb808ffc1447f316\AndroidManifest.xml:2:1-11:12
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:2:1-57:12
+MERGED from [me.gujun.android.taggroup:library:1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88455ad0318b75c058a621202b9ca097\AndroidManifest.xml:2:1-10:12
+MERGED from [co.lujun:androidtagview:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\81c5ecfa5927a209eb42fe6a190df983\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dfb8aff692aab7b2576ddaa2f601d71a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f44232c3fe5986ea4d95e7839dc8a2e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7a195b3bdbcfb3cdddedc2761cd75585\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\98a3672f832e3821a670d356b25d623e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21e8aedfeedd124e6711ea1cc84bd789\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\06c1fd76b2f6023511db6975b93b58df\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8edf66491d423743cb56cb14d7514323\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cd5259b70b6dceebefa6c29b84997605\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\30cb465051067e18fb65599d106fe7b5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b970caa479b13fc3577be03e8b5b262\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\be241802eaed79b18bb8f6fe0f8ab575\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\58cfa6cff3c703d3417f1f263cc2a9ad\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bd9b043a03dc54a0f9c3486f2f9ea8c4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2a8cc3c8293afc5674dbb1df828dec7a\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d877a8bed73404e024fdf568c5a0265d\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f500208aa9ec133f8ef2c10c82aa7b2d\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcfcad8a2d1d0b9f0dcd5548658a1597\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e160e8e3e6f7248a3f13f28b05f714e\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fbeeff57c54d77f9caa7fd0dc5be1987\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f38634ff1c4f6acfdfa04855267c9aaa\AndroidManifest.xml:2:1-11:12
+MERGED from [com.contrarywind:wheelview:4.0.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e5976bde6a7afc74f33f484ac90d080e\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1da6d061892ce347235f46211ad398de\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf95dd435c3819b28dddb020e5495941\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\434404b8e8187727b6d2039fcfe71126\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c607c0d7661b7ae7dbb9039e79add698\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c41265f8d219f067be2fd4d39f2309e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ba030a4b12f474a6ffd972b4d07b471\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7bb1aefcc4ad8b4731f36eed9e53057b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89a835a5c7f35fc151a54bae20a6b533\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a60a169a4dba00e460d05ff84d46f9b0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5329623d638f748eb0eff75ad72cfca3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b4155bbb06e86a7e02cd3605f3eee7a\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+	package
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:1-149:12
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:12:5-13:47
+	tools:ignore
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:12:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:20:5-75
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:20:5-76
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:20:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:22:5-78
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:19:5-79
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:24:5-75
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.INTERNET
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:28:5-67
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:18:5-67
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:28:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:29:5-77
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:29:22-74
+application
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:31:5-147:19
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1882be8c2efe92c7dc89fa74357b0ba6\AndroidManifest.xml:11:5-20
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1882be8c2efe92c7dc89fa74357b0ba6\AndroidManifest.xml:11:5-20
+MERGED from [:citypicker] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\citypicker\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:citypicker] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\citypicker\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6e523ca6f86e8c9b25222283cfc14480\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6e523ca6f86e8c9b25222283cfc14480\AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bca65c8811ea2d9654a16cec286719d8\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bca65c8811ea2d9654a16cec286719d8\AndroidManifest.xml:10:5-20
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:11:5-54:19
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:11:5-54:19
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6dc9a774b06bcfa08b817d6dc1aa347\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6dc9a774b06bcfa08b817d6dc1aa347\AndroidManifest.xml:11:5-14:19
+MERGED from [com.shizhefei:ViewPagerIndicator:1.1.9.androidx] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\26e107a218df28270603e912ce5be327\AndroidManifest.xml:11:5-14:19
+MERGED from [com.shizhefei:ViewPagerIndicator:1.1.9.androidx] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\26e107a218df28270603e912ce5be327\AndroidManifest.xml:11:5-14:19
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:22:5-55:19
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:22:5-55:19
+MERGED from [co.lujun:androidtagview:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\81c5ecfa5927a209eb42fe6a190df983\AndroidManifest.xml:11:5-12:19
+MERGED from [co.lujun:androidtagview:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\81c5ecfa5927a209eb42fe6a190df983\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e160e8e3e6f7248a3f13f28b05f714e\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e160e8e3e6f7248a3f13f28b05f714e\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f38634ff1c4f6acfdfa04855267c9aaa\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f38634ff1c4f6acfdfa04855267c9aaa\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1da6d061892ce347235f46211ad398de\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1da6d061892ce347235f46211ad398de\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e160e8e3e6f7248a3f13f28b05f714e\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:36:9-35
+	android:label
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:35:9-41
+	android:icon
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:34:9-45
+	android:allowBackup
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:37:9-52
+	tools:replace
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:38:9-37
+	android:usesCleartextTraffic
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:39:9-44
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:32:9-38
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:41:9-44:21
+	android:value
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:43:13-61
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:42:13-52
+service#com.baidu.location.f
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:45:9-114
+	android:process
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:45:77-102
+	android:enabled
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:45:54-76
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:45:18-53
+activity#com.xhc.bigbusinessu.activity.LogoActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:46:9-51:20
+	android:launchMode
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:48:13-48
+	android:theme
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:49:13-56
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:47:13-50
+activity#com.xhc.bigbusinessu.activity.MainActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:53:9-65:20
+	android:screenOrientation
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:56:13-49
+	android:windowSoftInputMode
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:58:13-64
+	android:configChanges
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:55:13-85
+	android:theme
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:54:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:60:13-63:29
+action#android.intent.action.MAIN
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:62:27-74
+activity#com.xhc.bigbusinessu.activity.LoginActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:68:9-73:66
+	android:screenOrientation
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:71:13-49
+	android:windowSoftInputMode
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:73:13-64
+	android:configChanges
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:70:13-85
+	android:theme
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:72:13-56
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:69:13-51
+activity#com.xhc.bigbusinessu.activity.shop.HometownGoodsListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:75:9-76:60
+	android:theme
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:76:13-58
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:75:19-74
+activity#com.xhc.bigbusinessu.activity.shop.ShopGoodsDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:77:9-76
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:77:19-73
+activity#com.xhc.bigbusinessu.activity.shop.SearchForGoodsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:78:9-74
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:78:19-71
+activity#com.xhc.bigbusinessu.activity.shop.ShopDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:79:9-71
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:79:19-68
+activity#com.xhc.bigbusinessu.activity.me.setting.SetupActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:80:9-71
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:80:19-68
+activity#com.xhc.bigbusinessu.activity.me.setting.PersonalInfoActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:81:9-78
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:81:19-75
+activity#com.xhc.bigbusinessu.activity.shop.ConfigGoodsOrderActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:82:9-76
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:82:19-73
+activity#com.xhc.bigbusinessu.activity.me.MyShopGoodsAddressList
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:83:9-72
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:83:19-69
+activity#com.xhc.bigbusinessu.activity.me.MyShopGoodsAddressListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:84:9-80
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:84:19-77
+activity#com.xhc.bigbusinessu.activity.me.AddNewShopGoodsAddressActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:85:9-80
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:85:19-77
+activity#com.xhc.bigbusinessu.activity.me.order.shop.AllShopOrderActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:86:9-81
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:86:19-78
+activity#com.xhc.bigbusinessu.activity.RegisterActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:87:9-63
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:87:19-60
+activity#com.xhc.bigbusinessu.activity.me.setting.ChangePwdActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:88:9-75
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:88:19-72
+activity#com.xhc.bigbusinessu.activity.shop.AllGoodsClassActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:89:9-73
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:89:19-70
+activity#com.xhc.bigbusinessu.activity.shop.ShopOrderDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:90:9-76
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:90:19-73
+activity#com.xhc.bigbusinessu.wxapi.WXEntryActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:93:9-98:20
+	android:launchMode
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:96:13-43
+	android:exported
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:95:13-36
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:94:13-50
+activity#com.xhc.bigbusinessu.wxapi.WXPayEntryActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:100:9-103:45
+	android:launchMode
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:103:13-43
+	android:exported
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:102:13-36
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:101:13-53
+activity#com.xhc.bigbusinessu.activity.shop.DoPayActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:104:9-65
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:104:19-62
+activity#com.xhc.bigbusinessu.activity.shop.PaySuccessActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:105:9-70
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:105:19-67
+activity#com.xhc.bigbusinessu.activity.life.ConvenientLifeActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:106:9-74
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:106:19-71
+activity#com.xhc.bigbusinessu.activity.life.ConvenientLifeListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:107:9-78
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:107:19-75
+activity#com.xhc.bigbusinessu.activity.life.AllLifeClassListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:108:9-76
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:108:19-73
+activity#com.xhc.bigbusinessu.activity.life.AppointmentHeActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:109:9-73
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:109:19-70
+activity#com.xhc.bigbusinessu.activity.life.push.LifePushNeedActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:110:9-77
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:110:19-74
+activity#com.xhc.bigbusinessu.activity.life.push.LifePushSkillActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:111:9-78
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:111:19-75
+activity#com.xhc.bigbusinessu.activity.life.order.AllLifeOrderListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:112:9-82
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:112:19-79
+activity#com.xhc.bigbusinessu.activity.life.order.LifeAllOrderListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:113:9-82
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:113:19-79
+activity#com.xhc.bigbusinessu.activity.ruralTourism.RuralTourismActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:114:9-80
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:114:19-77
+activity#com.xhc.bigbusinessu.activity.life.order.LifeOrderDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:115:9-82
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:115:19-79
+activity#com.xhc.bigbusinessu.activity.ruralTourism.RuralTourismDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:116:9-87
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:116:19-84
+activity#com.xhc.bigbusinessu.activity.hotel.HotelMainActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:117:9-70
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:117:19-67
+activity#com.xhc.bigbusinessu.activity.hotel.HotelListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:118:9-70
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:118:19-67
+activity#com.xhc.bigbusinessu.activity.hotel.HotelDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:119:9-73
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:119:19-70
+activity#com.xhc.bigbusinessu.activity.hotel.HotelSubOrderActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:120:9-74
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:120:19-71
+activity#com.xhc.bigbusinessu.activity.hotel.HotelEditCheckInUserActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:121:9-81
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:121:19-78
+activity#com.xhc.bigbusinessu.activity.hotel.HotelDoPayOrderActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:122:9-76
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:122:19-73
+activity#com.xhc.bigbusinessu.activity.me.order.hotel.AllHotelOrderActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:123:9-83
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:123:19-80
+activity#com.xhc.bigbusinessu.activity.me.order.hotel.HotelOrderDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:124:9-87
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:124:19-84
+activity#com.xhc.bigbusinessu.activity.takeOut.TakeOutHomeActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:125:9-74
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:125:19-71
+activity#com.xhc.bigbusinessu.activity.errands.ErrandsHomeActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:126:9-74
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:126:19-71
+activity#com.xhc.bigbusinessu.activity.invoice.InvoiceListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:127:9-74
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:127:19-71
+activity#com.xhc.bigbusinessu.activity.invoice.EditInvoiceDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:128:9-81
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:128:19-78
+activity#com.xhc.bigbusinessu.activity.collection.MyCollectionActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:129:9-78
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:129:19-75
+activity#com.xhc.bigbusinessu.activity.wallet.MyWalletActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:130:9-70
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:130:19-67
+activity#com.xhc.bigbusinessu.activity.wallet.ApplyMoneyOutActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:131:9-75
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:131:19-72
+activity#com.xhc.bigbusinessu.activity.wallet.OutMoneyListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:132:9-74
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:132:19-71
+activity#com.xhc.bigbusinessu.activity.integral_recharge.IntegralRechargeActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:133:9-89
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:133:19-86
+activity#com.xhc.bigbusinessu.activity.coupon.GoodsCouponListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:134:9-77
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:134:19-74
+activity#com.xhc.bigbusinessu.activity.bbs.PushBBSActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:135:9-66
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:135:19-63
+activity#com.xhc.bigbusinessu.activity.myGoods.MyGoodsForSellActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:136:9-77
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:136:19-74
+activity#com.xhc.bigbusinessu.activity.myGoods.PushMyGoodsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:137:9-74
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:137:19-71
+activity#com.xhc.bigbusinessu.activity.myGoods.MyGoodsForPushActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:138:9-77
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:138:19-74
+activity#com.xhc.bigbusinessu.activity.me.order.travel.AllTravelOrderActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:139:9-85
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:139:19-82
+activity#com.xhc.bigbusinessu.activity.me.order.travel.TravelOrderDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:140:9-89
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:140:19-86
+activity#com.xhc.bigbusinessu.activity.me.order.errands.AllErrandsOrderActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:141:9-87
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:141:19-84
+activity#com.xhc.bigbusinessu.activity.me.order.errands.ErrandsOrderDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:142:9-91
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:142:19-88
+activity#com.xhc.bigbusinessu.activity.me.order.takeOut.AllTakeoutOrderActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:143:9-87
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:143:19-84
+activity#com.xhc.bigbusinessu.activity.takeOut.TakeOutGoodsListActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:144:9-79
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:144:19-76
+activity#com.xhc.bigbusinessu.activity.takeOut.TakeOutGoodsDetailsActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:145:9-82
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:145:19-79
+activity#com.xhc.bigbusinessu.activity.takeOut.TakeOutBusinessQualificationActivity
+ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:146:9-91
+	android:name
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml:146:19-88
+uses-sdk
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\12c3aec28066f85ff07b1c3c403f5a9a\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\12c3aec28066f85ff07b1c3c403f5a9a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1882be8c2efe92c7dc89fa74357b0ba6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jcodecraeer:xrecyclerview:1.5.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1882be8c2efe92c7dc89fa74357b0ba6\AndroidManifest.xml:7:5-9:41
+MERGED from [:citypicker] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\citypicker\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:citypicker] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\citypicker\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6e523ca6f86e8c9b25222283cfc14480\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6e523ca6f86e8c9b25222283cfc14480\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bca65c8811ea2d9654a16cec286719d8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bca65c8811ea2d9654a16cec286719d8\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdc034c145457cbf25e09ab318cf5032\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdc034c145457cbf25e09ab318cf5032\AndroidManifest.xml:20:5-44
+MERGED from [com.ms:Banner:2.3.17] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3f4611ec270eef60d028398898a2577d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.ms:Banner:2.3.17] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3f4611ec270eef60d028398898a2577d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ai2101039:YLCircleImageView:v1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\92c9b79e79ae7dcf057efea43f52debf\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ai2101039:YLCircleImageView:v1.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\92c9b79e79ae7dcf057efea43f52debf\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6dc9a774b06bcfa08b817d6dc1aa347\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jokermonn:permissions4m:2.1.2-lib] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a6dc9a774b06bcfa08b817d6dc1aa347\AndroidManifest.xml:7:5-9:41
+MERGED from [:policylibrary] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\policylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:policylibrary] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\policylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:niceimageview] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\niceimageview\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:niceimageview] E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\niceimageview\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03d5b6b5c9936f24528037ef42709500\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.LuckSiege.PictureSelector:ucrop:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\03d5b6b5c9936f24528037ef42709500\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9feaca97eb9ba459c3a038a4004c382\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9feaca97eb9ba459c3a038a4004c382\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\edf808a53947cada6c112e4a1c7f1948\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\edf808a53947cada6c112e4a1c7f1948\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c72cfa620e60db3828ac3c6320ea086e\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c72cfa620e60db3828ac3c6320ea086e\AndroidManifest.xml:5:5-44
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\db90bccd79b3a1e6d6bd8eaee99b4019\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\db90bccd79b3a1e6d6bd8eaee99b4019\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a0d3cc7aa68ed9b9a6c7b6a24e798367\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a0d3cc7aa68ed9b9a6c7b6a24e798367\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85d3c3468fd13f9467785bb59c387af7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\85d3c3468fd13f9467785bb59c387af7\AndroidManifest.xml:20:5-44
+MERGED from [com.zhy:okhttputils:2.5.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e8b4643f8e16d878cd6e84698a3d871\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.5.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e8b4643f8e16d878cd6e84698a3d871\AndroidManifest.xml:7:5-9:41
+MERGED from [com.hyman:flowlayout-lib:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fae9c677859b380cda834eb67d5280a5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.hyman:flowlayout-lib:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fae9c677859b380cda834eb67d5280a5\AndroidManifest.xml:8:5-10:41
+MERGED from [com.shizhefei:ViewPagerIndicator:1.1.9.androidx] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\26e107a218df28270603e912ce5be327\AndroidManifest.xml:7:5-9:41
+MERGED from [com.shizhefei:ViewPagerIndicator:1.1.9.androidx] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\26e107a218df28270603e912ce5be327\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8c39354a694ca16abb808ffc1447f316\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8c39354a694ca16abb808ffc1447f316\AndroidManifest.xml:7:5-9:41
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:7:5-9:41
+MERGED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:7:5-9:41
+MERGED from [me.gujun.android.taggroup:library:1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88455ad0318b75c058a621202b9ca097\AndroidManifest.xml:6:5-8:41
+MERGED from [me.gujun.android.taggroup:library:1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88455ad0318b75c058a621202b9ca097\AndroidManifest.xml:6:5-8:41
+MERGED from [co.lujun:androidtagview:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\81c5ecfa5927a209eb42fe6a190df983\AndroidManifest.xml:7:5-9:41
+MERGED from [co.lujun:androidtagview:1.1.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\81c5ecfa5927a209eb42fe6a190df983\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dfb8aff692aab7b2576ddaa2f601d71a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dfb8aff692aab7b2576ddaa2f601d71a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f44232c3fe5986ea4d95e7839dc8a2e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f44232c3fe5986ea4d95e7839dc8a2e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7a195b3bdbcfb3cdddedc2761cd75585\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7a195b3bdbcfb3cdddedc2761cd75585\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\98a3672f832e3821a670d356b25d623e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\98a3672f832e3821a670d356b25d623e\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21e8aedfeedd124e6711ea1cc84bd789\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\21e8aedfeedd124e6711ea1cc84bd789\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\06c1fd76b2f6023511db6975b93b58df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\06c1fd76b2f6023511db6975b93b58df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8edf66491d423743cb56cb14d7514323\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8edf66491d423743cb56cb14d7514323\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cd5259b70b6dceebefa6c29b84997605\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cd5259b70b6dceebefa6c29b84997605\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\30cb465051067e18fb65599d106fe7b5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\30cb465051067e18fb65599d106fe7b5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b970caa479b13fc3577be03e8b5b262\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b970caa479b13fc3577be03e8b5b262\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\be241802eaed79b18bb8f6fe0f8ab575\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\be241802eaed79b18bb8f6fe0f8ab575\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\58cfa6cff3c703d3417f1f263cc2a9ad\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\58cfa6cff3c703d3417f1f263cc2a9ad\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bd9b043a03dc54a0f9c3486f2f9ea8c4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bd9b043a03dc54a0f9c3486f2f9ea8c4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2a8cc3c8293afc5674dbb1df828dec7a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2a8cc3c8293afc5674dbb1df828dec7a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d877a8bed73404e024fdf568c5a0265d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d877a8bed73404e024fdf568c5a0265d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f500208aa9ec133f8ef2c10c82aa7b2d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f500208aa9ec133f8ef2c10c82aa7b2d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcfcad8a2d1d0b9f0dcd5548658a1597\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcfcad8a2d1d0b9f0dcd5548658a1597\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e160e8e3e6f7248a3f13f28b05f714e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0-beta01] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8e160e8e3e6f7248a3f13f28b05f714e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fbeeff57c54d77f9caa7fd0dc5be1987\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fbeeff57c54d77f9caa7fd0dc5be1987\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f38634ff1c4f6acfdfa04855267c9aaa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f38634ff1c4f6acfdfa04855267c9aaa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.contrarywind:wheelview:4.0.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e5976bde6a7afc74f33f484ac90d080e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:wheelview:4.0.9] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e5976bde6a7afc74f33f484ac90d080e\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1da6d061892ce347235f46211ad398de\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1da6d061892ce347235f46211ad398de\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf95dd435c3819b28dddb020e5495941\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bf95dd435c3819b28dddb020e5495941\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\434404b8e8187727b6d2039fcfe71126\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\434404b8e8187727b6d2039fcfe71126\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c607c0d7661b7ae7dbb9039e79add698\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c607c0d7661b7ae7dbb9039e79add698\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c41265f8d219f067be2fd4d39f2309e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5c41265f8d219f067be2fd4d39f2309e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ba030a4b12f474a6ffd972b4d07b471\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ba030a4b12f474a6ffd972b4d07b471\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7bb1aefcc4ad8b4731f36eed9e53057b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7bb1aefcc4ad8b4731f36eed9e53057b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89a835a5c7f35fc151a54bae20a6b533\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\89a835a5c7f35fc151a54bae20a6b533\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a60a169a4dba00e460d05ff84d46f9b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a60a169a4dba00e460d05ff84d46f9b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5329623d638f748eb0eff75ad72cfca3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5329623d638f748eb0eff75ad72cfca3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b4155bbb06e86a7e02cd3605f3eee7a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b4155bbb06e86a7e02cd3605f3eee7a\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+		ADDED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\xhcAndroid\BigBusinessU3_v2\BigBusinessU3\app\src\main\AndroidManifest.xml
+provider#com.luck.picture.lib.PictureFileProvider
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:13:13-68
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:17:13-19:54
+	android:resource
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:19:17-51
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:18:17-67
+activity#com.luck.picture.lib.PictureSelectorActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:22:9-24:77
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:23:13-72
+activity#com.luck.picture.lib.PictureSelectorWeChatStyleActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:25:9-27:77
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:27:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:26:13-83
+activity#com.luck.picture.lib.PictureSelectorCameraEmptyActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:28:9-31:64
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:31:13-61
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:29:13-83
+activity#com.luck.picture.lib.PicturePreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:32:9-34:77
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:34:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:33:13-71
+activity#com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:35:9-37:77
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:37:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:36:13-90
+activity#com.luck.picture.lib.PictureVideoPlayActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:38:9-41:50
+	android:screenOrientation
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:41:13-47
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:40:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:39:13-73
+activity#com.luck.picture.lib.PictureExternalPreviewActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:42:9-44:77
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:44:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:43:13-79
+activity#com.luck.picture.lib.PicturePlayAudioActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:45:9-47:77
+	android:configChanges
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:47:13-74
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:46:13-73
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:48:9-50:61
+	android:theme
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:50:13-58
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:49:13-60
+activity#com.yalantis.ucrop.PictureMultiCuttingActivity
+ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:51:9-53:61
+	android:theme
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:53:13-58
+	android:name
+		ADDED from [com.github.LuckSiege.PictureSelector:picture_library:v2.4.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c884b0e8fc9c42e40374aa689e73653\AndroidManifest.xml:52:13-74
+supports-screens
+ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:11:5-16:39
+	android:largeScreens
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:16:9-36
+	android:normalScreens
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:14:9-37
+	android:resizeable
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:15:9-34
+	android:anyDensity
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:12:9-34
+uses-library#org.apache.http.legacy
+ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:24:13-50
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:27:9-32:20
+	android:screenOrientation
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:31:13-47
+	android:exported
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:30:13-37
+	android:configChanges
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:29:13-74
+	android:name
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:28:13-60
+activity#com.alipay.sdk.app.H5AuthActivity
+ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:33:9-38:20
+	android:screenOrientation
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:37:13-47
+	android:exported
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:36:13-37
+	android:configChanges
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:35:13-85
+	android:name
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:34:13-61
+activity#com.alipay.sdk.app.PayResultActivity
+ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:39:9-48:20
+	android:launchMode
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:43:13-48
+	android:exported
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:42:13-36
+	android:configChanges
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:41:13-85
+	android:theme
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:44:13-72
+	android:name
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:40:13-64
+intent-filter#category:name:android.intent.category.DEFAULT
+ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:45:13-47:29
+category#android.intent.category.DEFAULT
+ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:46:27-73
+activity#com.alipay.sdk.app.AlipayResultActivity
+ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:49:9-54:20
+	android:launchMode
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:52:13-44
+	android:exported
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:51:13-36
+	android:theme
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:53:13-72
+	android:name
+		ADDED from [:alipaySdk-15.6.8-20191021122455-noUtdid:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\09aed652b9627df5da075d048b66537f\AndroidManifest.xml:50:13-67

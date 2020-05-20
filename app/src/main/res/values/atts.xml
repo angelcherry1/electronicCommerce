@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRadioButton">
+
+        <attr name="my_drawableSize" format="dimension" />
+        <attr name="my_drawableTop" format="reference" />
+        <attr name="my_drawableLeft" format="reference" />
+        <attr name="my_drawableRight" format="reference" />
+        <attr name="my_drawableBottom" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+</resources>

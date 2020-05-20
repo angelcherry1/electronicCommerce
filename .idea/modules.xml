@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BigBusinessU3.iml" filepath="$PROJECT_DIR$/BigBusinessU3.iml" group="BigBusinessU3" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BigBusinessU3/app" />
+      <module fileurl="file://$PROJECT_DIR$/citypicker/citypicker.iml" filepath="$PROJECT_DIR$/citypicker/citypicker.iml" group="BigBusinessU3/citypicker" />
+      <module fileurl="file://$PROJECT_DIR$/niceimageview/niceimageview.iml" filepath="$PROJECT_DIR$/niceimageview/niceimageview.iml" group="BigBusinessU3/niceimageview" />
+      <module fileurl="file://$PROJECT_DIR$/policylibrary/policylibrary.iml" filepath="$PROJECT_DIR$/policylibrary/policylibrary.iml" group="BigBusinessU3/policylibrary" />
+    </modules>
+  </component>
+</project>

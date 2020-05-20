@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xhc.bigbusinessu"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.xhc.bigbusinessu.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/icon_app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="sBzFokp6jfRhPq7m8lH4gAwmmGPF6NoT" >
+        </meta-data>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <activity
+            android:name="com.xhc.bigbusinessu.activity.LogoActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.xhc.bigbusinessu.activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xhc.bigbusinessu.activity.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.xhc.bigbusinessu.activity.shop.HometownGoodsListActivity"
+            android:theme="@style/DefaultCityPickerTheme" />
+        <activity android:name="com.xhc.bigbusinessu.activity.shop.ShopGoodsDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.shop.SearchForGoodsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.shop.ShopDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.setting.SetupActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.setting.PersonalInfoActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.shop.ConfigGoodsOrderActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.MyShopGoodsAddressList" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.MyShopGoodsAddressListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.AddNewShopGoodsAddressActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.order.shop.AllShopOrderActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.RegisterActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.setting.ChangePwdActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.shop.AllGoodsClassActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.shop.ShopOrderDetailsActivity" />
+        <activity
+            android:name="com.xhc.bigbusinessu.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="com.xhc.bigbusinessu.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity android:name="com.xhc.bigbusinessu.activity.shop.DoPayActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.shop.PaySuccessActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.ConvenientLifeActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.ConvenientLifeListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.AllLifeClassListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.AppointmentHeActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.push.LifePushNeedActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.push.LifePushSkillActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.order.AllLifeOrderListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.order.LifeAllOrderListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.ruralTourism.RuralTourismActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.life.order.LifeOrderDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.ruralTourism.RuralTourismDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.hotel.HotelMainActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.hotel.HotelListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.hotel.HotelDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.hotel.HotelSubOrderActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.hotel.HotelEditCheckInUserActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.hotel.HotelDoPayOrderActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.order.hotel.AllHotelOrderActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.order.hotel.HotelOrderDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.takeOut.TakeOutHomeActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.errands.ErrandsHomeActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.invoice.InvoiceListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.invoice.EditInvoiceDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.collection.MyCollectionActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.wallet.MyWalletActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.wallet.ApplyMoneyOutActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.wallet.OutMoneyListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.integral_recharge.IntegralRechargeActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.coupon.GoodsCouponListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.bbs.PushBBSActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.myGoods.MyGoodsForSellActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.myGoods.PushMyGoodsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.myGoods.MyGoodsForPushActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.order.travel.AllTravelOrderActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.order.travel.TravelOrderDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.order.errands.AllErrandsOrderActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.order.errands.ErrandsOrderDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.me.order.takeOut.AllTakeoutOrderActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.takeOut.TakeOutGoodsListActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.takeOut.TakeOutGoodsDetailsActivity" />
+        <activity android:name="com.xhc.bigbusinessu.activity.takeOut.TakeOutBusinessQualificationActivity" />
+
+        <provider
+            android:name="com.luck.picture.lib.PictureFileProvider"
+            android:authorities="com.xhc.bigbusinessu.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Picture.Theme.Translucent" />
+        <activity
+            android:name="com.luck.picture.lib.PicturePreviewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:theme="@style/Base.Theme.NoActionBar" />
+        <activity
+            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+            android:theme="@style/Base.Theme.NoActionBar" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.PayResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.AlipayResultActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+    </application>
+
+</manifest>

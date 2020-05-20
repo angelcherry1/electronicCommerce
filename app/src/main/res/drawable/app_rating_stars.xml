@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--drawable 用UI给的切图-->
+    <!--默认样式-->
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/icon_comment_normal" />
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:drawable="@drawable/icon_comment_normal" />
+    <!--进度样式-->
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/icon_comment_pressed" />
+</layer-list>

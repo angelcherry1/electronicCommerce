@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="@color/view_line" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/img_goods"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/icon_goods" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="华莱士（银泰店）"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_push_name"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/white"
+                    android:progressTint="@color/app_theme_color"
+                    android:rating="5"
+                    android:secondaryProgressTint="@color/app_theme_color"
+                    android:stepSize="0.5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.0分"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#ff666666"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="月售238单"
+                    android:textColor="#666666"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="起送￥15 | 免配送费 | 人均￥16"
+                android:textColor="#ff666666"
+                android:textSize="12sp" />
+
+
+            <co.lujun.androidtagview.TagContainerLayout
+                android:id="@+id/tagcontainerLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                app:container_background_color="#ffffff"
+                app:container_border_color="#ffffff"
+                app:container_border_radius="0dp"
+                app:container_gravity="left"
+                app:horizontal_interval="10dp"
+                app:tag_background_color="#FFFFFFFF"
+                app:tag_border_color="#FFE4E2"
+                app:tag_border_width="1dp"
+                app:tag_clickable="true"
+                app:tag_corner_radius="3dp"
+                app:tag_horizontal_padding="6dp"
+                app:tag_selectable="true"
+                app:tag_support_letters_rlt="false"
+                app:tag_text_color="#FC5F56"
+                app:tag_text_size="9sp"
+                app:tag_theme="none"
+                app:tag_vertical_padding="4dp"
+                app:vertical_interval="2dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30分钟  688m"
+                android:textColor="#ff333333"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

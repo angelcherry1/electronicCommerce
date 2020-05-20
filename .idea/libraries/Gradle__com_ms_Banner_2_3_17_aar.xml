@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ms:Banner:2.3.17@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b63960f6729cfd6f75b721ea6567247/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b63960f6729cfd6f75b721ea6567247/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ms/Banner/2.3.17/2711c150b6628d02bd3ee920a6eafe19a13ed21a/Banner-2.3.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

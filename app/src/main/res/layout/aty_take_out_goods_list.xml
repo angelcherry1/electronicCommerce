@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/icon_home_top_bg" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/icon_goods" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="华莱士（银泰店）"
+                            android:textColor="#ff333333"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="5.0分  月售238单  配送约30分钟"
+                            android:textColor="#ff666666"
+                            android:textSize="10sp" />
+
+                        <co.lujun.androidtagview.TagContainerLayout
+                            android:id="@+id/tagcontainerLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            app:container_background_color="#ffffff"
+                            app:container_border_color="#ffffff"
+                            app:container_border_radius="0dp"
+                            app:container_gravity="left"
+                            app:horizontal_interval="10dp"
+                            app:tag_background_color="#FFFFFFFF"
+                            app:tag_border_color="#FFE4E2"
+                            app:tag_border_width="1dp"
+                            app:tag_clickable="true"
+                            app:tag_corner_radius="3dp"
+                            app:tag_horizontal_padding="6dp"
+                            app:tag_selectable="true"
+                            app:tag_support_letters_rlt="false"
+                            app:tag_text_color="#FC5F56"
+                            app:tag_text_size="9sp"
+                            app:tag_theme="none"
+                            app:tag_vertical_padding="4dp"
+                            app:vertical_interval="2dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            
+            
+            
+            <RelativeLayout
+                android:id="@+id/rel_back"
+                android:layout_width="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingTop="20dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_title_back"/>
+            </RelativeLayout>
+            
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.shizhefei.view.indicator.FixedIndicatorView
+        android:id="@+id/fragment_tabmain_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fragment_tabmain_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ai2101039:YLCircleImageView:v1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62ae17809895f5412e3ee8edff63fad9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62ae17809895f5412e3ee8edff63fad9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ai2101039/YLCircleImageView/v1.0.6/2b4ceba661e4acc6b189b2cceb2b575b79bf7e9b/YLCircleImageView-v1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

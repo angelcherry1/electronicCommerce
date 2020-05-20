@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFB333</color>
+    <color name="colorPrimaryDark">#FFB333</color>
+    <color name="colorAccent">#FFB333</color>
+    <color name="app_theme_color">#FFB333</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="view_line">#ffdddddd</color>
+    <color name="app_bg">#F0F0F0</color>
+    <color name="app_red">#E60011</color>
+    <color name="gray_999999">#999999</color>
+    <color name="orange_e8af78">#E8AF78</color>
+
+    <color name="dialog_bg">#B3000000</color>
+</resources>
